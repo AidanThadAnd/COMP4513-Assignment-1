@@ -1,1 +1,0 @@
-/api/paintings/sort/:value

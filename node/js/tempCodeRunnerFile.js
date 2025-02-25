@@ -1,0 +1,1 @@
+s.status(404).json({ error: 'Incorrect API endpoint' });
