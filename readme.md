@@ -37,3 +37,36 @@ This project is an API which queries a Supabase instance using Node.
 |/api/counts/genres|Returns the genre name and the number of paintings for each genre|
 
 ### Test links
+- https://familiar-enshrined-crustacean.glitch.me/api/eras
+- https://familiar-enshrined-crustacean.glitch.me/api/galleries
+- https://familiar-enshrined-crustacean.glitch.me/api/galleries/30
+- https://familiar-enshrined-crustacean.glitch.me/api/galleries/Calgary
+- https://familiar-enshrined-crustacean.glitch.me/api/galleries/country/fra
+- https://familiar-enshrined-crustacean.glitch.me/api/artists
+- https://familiar-enshrined-crustacean.glitch.me/api/artists/12
+- https://familiar-enshrined-crustacean.glitch.me/api/artists/1223423
+- https://familiar-enshrined-crustacean.glitch.me/api/artists/search/ma
+- https://familiar-enshrined-crustacean.glitch.me/api/artists/search/mA
+- https://familiar-enshrined-crustacean.glitch.me/api/artists/country/fra
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/sort/year
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/63
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/search/port
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/search/pORt
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/search/connolly
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/years/1800/1850
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/galleries/5
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/artist/16
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/artist/666
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/artist/country/ital
+- https://familiar-enshrined-crustacean.glitch.me/api/genres
+- https://familiar-enshrined-crustacean.glitch.me/api/genres/76
+- https://familiar-enshrined-crustacean.glitch.me/api/genres/painting/408
+- https://familiar-enshrined-crustacean.glitch.me/api/genres/painting/jsdfhg
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/genre/78
+- https://familiar-enshrined-crustacean.glitch.me/api/paintings/era/2
+- https://familiar-enshrined-crustacean.glitch.me/api/counts/genres
+- https://familiar-enshrined-crustacean.glitch.me/api/counts/artists
+- https://familiar-enshrined-crustacean.glitch.me/api/counts/topgenres/20
+- https://familiar-enshrined-crustacean.glitch.me/api/counts/topgenres/2034958
+
