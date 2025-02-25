@@ -9,7 +9,7 @@ const supabase = supa.createClient(supaUrl, supabaseKey);
 async function handleRPC(rpcName, params, res) {
   const { data, error } = await supabase.rpc(rpcName, params);
   if (error) {
-    res.status(500).send(error.message);
+    res.status(500).json({ message: error.message });
   } else if (!data || data.length === 0) {
     res.status(404).json({ message: "No data found at this endpoint" });
   } else {
