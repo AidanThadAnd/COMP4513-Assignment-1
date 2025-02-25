@@ -1,39 +1,15 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const { handleRPC } = require('./supabase.js');
+const { handleRPC } = require("./supabase.js");
 
-//GENRES
-app.get('/api/genres', async (req, res) => {
-    const {data, error} = await supabase
-        .rpc('get_genres', {});
-    if (error) {
-        res.status(500).send(error.message);
-    }
-    else {
-        res.send(data);
-    }
-});
+router.get("/", (req, res) => handleRPC("get_genres", {}, res));
 
-app.get('/api/genres/:ref', async (req, res) => {
-    const {data, error} = await supabase
-        .rpc('get_genre_by_id', {genre_id: req.params.ref});
-    if (error) {
-        res.status(500).send(error.message);
-    }
-    else {
-        res.send(data);
-    }
-});
+router.get("/:ref", (req, res) =>
+  handleRPC("get_genre_by_id", { genre_id: req.params.ref }, res)
+);
 
-app.get('/api/genres/painting/:ref', async (req, res) => {
-    const {data, error} = await supabase
-        .rpc('genre_in_painting', {painting_id: req.params.ref});
-    if (error) {
-        res
-            .status(500)
-            .send(error.message);
-    }
-    else {
-        res.send(data);
-    }
-});
+router.get("/painting/:ref", (req, res) =>
+  handleRPC("genre_in_painting", { painting_id: req.params.ref }, res)
+);
+
+module.exports = router;
